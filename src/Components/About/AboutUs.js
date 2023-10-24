@@ -67,11 +67,11 @@ const AboutUs = (props) => {
 
              
             </div>
-            <div className="md:w-1/2 md:-mt-24 z-10 flex  justify-center ">
+            <div className="md:w-1/2 z-10 flex  justify-center ">
               <img
                 alt=""
                 className="max-md:rounded-xl "
-                src="/assets/images/aboutmore.jpeg"
+                src="/assets/images/about.jpeg"
               ></img>
             </div>
           </div>
