@@ -144,7 +144,7 @@ const Navbar = (props) => {
               >
                 Combo
               </NavLink> */}
-              <NavLink
+              {/* <NavLink
                 className={({ isActive }) =>
                   isActive
                     ? "text-primary font-bold"
@@ -153,7 +153,7 @@ const Navbar = (props) => {
                 to="/nutraceuticals"
               >
                 Nutraceuticals
-              </NavLink>
+              </NavLink> */}
               <NavLink
                 className={({ isActive }) =>
                   isActive
