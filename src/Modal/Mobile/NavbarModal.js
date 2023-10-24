@@ -110,7 +110,7 @@ const NavbarModal = (props) => {
                     <p>Combo’s</p>
                     <p className="text-[15px] bg-primary px-2 py-0 text-white">New</p>
                     </div> */}
-              <a
+              {/* <a
                 href="https://www.amazon.in/stores/Greeny+Dip/page/55C8B85F-5029-412D-98EA-B6CF02A76EF0?ref_=ast_bln"
                 target="_blank"
               >
@@ -121,8 +121,8 @@ const NavbarModal = (props) => {
                     Cash on Payment
                   </p>
                 </div>
-              </a>
-              <p
+              </a> */}
+              {/* <p
                 onClick={() => {
                   navigate("/nutraceuticals");
                   props.Handler();
@@ -130,8 +130,8 @@ const NavbarModal = (props) => {
                 className="border-b pb-3"
               >
                 Nutraceuticals
-              </p>
-              <p
+              </p> */}
+              {/* <p
                 onClick={() => {
                   navigate("/media");
                   props.Handler();
@@ -139,7 +139,7 @@ const NavbarModal = (props) => {
                 className="border-b pb-3"
               >
                 Media
-              </p>
+              </p> */}
               <p
                 onClick={() => {
                   navigate("/contact");
@@ -157,6 +157,15 @@ const NavbarModal = (props) => {
                 className="border-b pb-3"
               >
                 My Profile
+              </p>
+              <p
+                onClick={() => {
+                  navigate("/cart");
+                  props.Handler();
+                }}
+                className="border-b pb-3"
+              >
+                My Cart
               </p>
             </div>
           )}
