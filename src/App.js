@@ -75,19 +75,17 @@ function App() {
 
   }
 
-  useEffect( () => {
-    // getToken()
-    const Distribution_id =  LocalStorageService.getItem('Distribution_id');
-    if (Distribution_id === null) {
+  // useEffect( () => {
+  //   const Distribution_id =  LocalStorageService.getItem('Distribution_id');
+  //   if (Distribution_id === null) {
       
-      // TODO GET LOCATION
-      handleGetLocation();
+  //     handleGetLocation();
 
-    }
-
+  //   }
 
 
-  }, [])
+
+  // }, [])
 
 
 
