@@ -92,7 +92,7 @@ const Navbar = (props) => {
             <img
               onClick={() => navigate("/")}
               src="/assets/Icons/sambu_logo.png"
-              className="h-24 py-1 cursor-pointer"
+              className="h-20 md:h-24 py-1 cursor-pointer"
               alt=""
             />
           </div>
