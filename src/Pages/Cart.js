@@ -6,6 +6,7 @@ import CartProvider from '../Contextapi/AppContext';
 import { LocalStorageService } from '../Services/LocalStorageService';
 import { useNavigate } from 'react-router-dom';
 import WelcomeModal from '../Modal/Login/WelcomeModal';
+import { ScrolltoTop } from '../Utility';
 
 const Cart = () => {
 
@@ -23,6 +24,8 @@ const Cart = () => {
 
   }
   useEffect(()=>{  
+
+    ScrolltoTop()
     var cart_data = LocalStorageService.getItem("new_cart");
     cartTotalUpdate(cart_data);
     // ScrolltoTop()
@@ -61,7 +64,7 @@ const userType = LocalStorageService.getItem('userType')
           }
      </div>
      <div className='w-full  md:w-1/2'>
-           <YourOrder  OutofStockHandler={OutofStockRemovedProduct} />
+           {/* <YourOrder  OutofStockHandler={OutofStockRemovedProduct} /> */}
      </div>
      <img src="/assets/images/groupleaf.png" className='absolute -left-2 -top-3 max-md:hidden' alt="" />
    </div>

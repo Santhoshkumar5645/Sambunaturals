@@ -14,6 +14,7 @@ import { LocalStorageService } from "../Services/LocalStorageService";
 import useFetchData from "../CustomHooks/useFetchData";
 import { NotificationService } from "../Service/NotificationService";
 import LogoutConfirmationModal from "../Modal/LogoutConfirmationModal";
+import { ScrolltoTop } from "../Utility";
 
 function Profile() {
   const [Toggler, setToggle] = useState(1);
@@ -32,6 +33,7 @@ function Profile() {
   };
 
   useEffect(() => {
+    ScrolltoTop()
     const userType = LocalStorageService.getItem("userType");
     if (userType === "guest" || !userType) {
       setWelcomeModal(true);
@@ -39,6 +41,7 @@ function Profile() {
       setWelcomeModal(false);
       userProfile();
     }
+   
     //  userProfile()
   }, []);
 
@@ -48,25 +51,25 @@ function Profile() {
       // case 1:
       //   return <Dashboard />;
 
-      case 1:
-        return <MyWallet data={userProfile} />;
+      // case 1:
+      //   return <MyWallet data={userProfile} />;
 
-      case 2:
+      case 1:
         return <ReferFriend />;
 
-      case 3:
+      case 2:
         return <SavedAddresses />;
 
-      case 4:
+      case 3:
         return <Feedback />;
 
-      case 5:
+      case 4:
         return <Orders />;
 
-      case 6:
+      case 5:
         return <Wishlist />;
 
-      case 8:
+      case 6:
         return <EditProfile call={userProfile} data={profileData} />;
 
       default:
@@ -122,7 +125,7 @@ function Profile() {
                 />
                 <img
                   onClick={() => {
-                    setToggle(8);
+                    setToggle(6);
                   }}
                   src="/assets/svg/edit.svg"
                   className="absolute h-5 bottom-0 right-0 cursor-pointer"
@@ -146,30 +149,13 @@ function Profile() {
 
             <div className="flex flex-col gap-y-3 md:gap-y-5 mt-5 font-medium  items-start ">
             
+             
               <div
                 onClick={() => {
                   setToggle(1);
                 }}
                 className={`${
                   Toggler === 1
-                    ? " rounded-md w-full max-md:py-3 px-2  text-primary "
-                    : "w-full max-md:py-3 px-2 "
-                } flex items-center gap-3 max-md:bg-gray-100`}
-              >
-                <img
-                  src="/assets/svg/profilewallet.svg"
-                  className="h-7"
-                  alt=""
-                />
-                {/* <img src="/assets/svg/" alt="" /> */}
-                <p className=" text-md cursor-pointer">My Wallet</p>
-              </div>
-              <div
-                onClick={() => {
-                  setToggle(2);
-                }}
-                className={`${
-                  Toggler === 2
                     ? " rounded-md w-full max-md:py-3 px-2  text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex items-center max-md:bg-gray-100 gap-3`}
@@ -183,10 +169,10 @@ function Profile() {
               </div>
               <div
                 onClick={() => {
-                  setToggle(3);
+                  setToggle(2);
                 }}
                 className={`${
-                  Toggler === 3
+                  Toggler === 2
                     ? " rounded-md w-full max-md:py-3 px-2  text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex items-center max-md:bg-gray-100 gap-3`}
@@ -202,10 +188,10 @@ function Profile() {
 
               <div
                 onClick={() => {
-                  setToggle(4);
+                  setToggle(3);
                 }}
                 className={`${
-                  Toggler === 4
+                  Toggler === 3
                     ? " rounded-md w-full max-md:py-3 px-2 text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex max-md:bg-gray-100 items-center gap-3`}
@@ -220,10 +206,10 @@ function Profile() {
 
               <div
                 onClick={() => {
-                  setToggle(5);
+                  setToggle(4);
                 }}
                 className={`${
-                  Toggler === 5
+                  Toggler === 4
                     ? " rounded-md w-full max-md:py-3 px-2 text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex max-md:bg-gray-100 items-center gap-3`}
@@ -238,10 +224,10 @@ function Profile() {
 
               <div
                 onClick={() => {
-                  setToggle(6);
+                  setToggle(5);
                 }}
                 className={`${
-                  Toggler === 6
+                  Toggler === 5
                     ? " rounded-md w-full max-md:py-3 px-2 text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex max-md:bg-gray-100 items-center gap-3`}
@@ -260,7 +246,7 @@ function Profile() {
                   LogoutModalHandler();
                 }}
                 className={`${
-                  Toggler === 8
+                  Toggler === 6
                     ? " rounded-md w-full max-md:py-3 px-2  text-primary "
                     : "w-full max-md:py-3 px-2 "
                 } flex max-md:bg-gray-100 items-center gap-3`}

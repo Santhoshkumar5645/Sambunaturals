@@ -91,18 +91,18 @@ const Navbar = (props) => {
             {/* <Logo /> */}
             <img
               onClick={() => navigate("/")}
-              src="/assets/Icons/logo.jpg"
+              src="/assets/Icons/sambu_logo.png"
               className="h-24 py-1 cursor-pointer"
               alt=""
             />
           </div>
           <div>
-            <h4
+            {/* <h4
               onClick={() => navigate("/")}
               className="text-primary md:hidden font-semibold text-xl"
             >
               KeeraiKadai
-            </h4>
+            </h4> */}
             <div className="hidden font-semibold md:flex md:space-x-5 lg:space-x-12 md:ml-8 lg:ml-10 xl:ml-16 ">
               <NavLink
                 className={({ isActive }) =>
@@ -134,16 +134,7 @@ const Navbar = (props) => {
               >
                 Shop
               </NavLink>
-              {/* <NavLink
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-primary font-bold"
-                    : "text-gray-500 font-light"
-                }
-                to="/shop"
-              >
-                Combo
-              </NavLink> */}
+             
               {/* <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -154,7 +145,7 @@ const Navbar = (props) => {
               >
                 Nutraceuticals
               </NavLink> */}
-              <NavLink
+              {/* <NavLink
                 className={({ isActive }) =>
                   isActive
                     ? "text-primary font-bold"
@@ -164,8 +155,8 @@ const Navbar = (props) => {
                 target="_blank"
               >
                 Amazon
-              </NavLink>
-              <NavLink
+              </NavLink> */}
+              {/* <NavLink
                 className={({ isActive }) =>
                   isActive
                     ? "text-primary font-bold"
@@ -174,7 +165,7 @@ const Navbar = (props) => {
                 to="/media"
               >
                 Media
-              </NavLink>
+              </NavLink> */}
               <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -244,12 +235,12 @@ const Navbar = (props) => {
                 onChange={(e) => setSearch(e.target.value)}
               />
 
-              <img
+              {/* <img
                 onClick={() => navigate("/profile")}
                 src="/assets/Icons/wallet.svg"
                 className={` ${searchIcon && "hidden"} h-5 cursor-pointer`}
                 alt=""
-              />
+              /> */}
 
               <p
                 onClick={() => navigate("/cart")}

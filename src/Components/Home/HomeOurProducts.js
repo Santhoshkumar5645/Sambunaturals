@@ -8,7 +8,7 @@ const HomeOurProducts = (props) => {
 
   return (
     <>
-           <div className="relative flex justify-center font-AVENIR gap-3 items-center my-5">
+           <div className="relative flex justify-center font-AVENIR gap-3 items-center max-md:mb-5 mt-10">
           <img
             src="/assets/images/shopleaf.png"
             className="max-md:hidden absolute right-0 h-28"
@@ -29,7 +29,7 @@ const HomeOurProducts = (props) => {
           </div>
         </div>
 
-        <div className="flex  items-center max-md:gap-3 font-AVENIR max-md:px-4 mt-8 md:justify-evenly">
+        <div className="flex  items-center max-md:gap-3 font-AVENIR max-md:px-4  md:justify-evenly">
           {
             props.firstThreeData?.map((values, index) => {
               return  <OurProducts key={index} {...values} />;
@@ -38,7 +38,7 @@ const HomeOurProducts = (props) => {
 
         <div className="flex flex-col font-AVENIR justify-center items-center md:space-y-3 max-md:my-5 md:mb-12">
           <p className="text-center mt-10 md:text-md lg:text-lg max-md:hidden">
-            We Keeraikadai providing quality products to the users.
+            We Sambu Naturals providing quality products to the users.
           </p>
           <button
             onClick={() => navigate("/shop")}

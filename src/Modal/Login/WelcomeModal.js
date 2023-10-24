@@ -26,9 +26,9 @@ const WelcomeModal = (props) => {
             alt=""
           />
           <div className='flex justify-center items-center flex-col space-y-3'>
-                      <img src="/assets/Icons/logo.jpg" className="h-32 py-1" alt="" />
+                      <img src="/assets/Icons/sambu_logo.png" className="h-32 py-1" alt="" />
 
-          <p className='text-primary text-md font-semibold'>Nurturing Health in Nature's way</p>
+          {/* <p className='text-primary text-md font-semibold'>Nurturing Health in Nature's way</p> */}
           <p className='w-full' ><button onClick={()=>{
             SigninModalHandler()
             props.Handler()

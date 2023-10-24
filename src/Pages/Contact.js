@@ -278,15 +278,15 @@ const Contact = () => {
 
           <div className="flex justify-center items-start  gap-3 px-3" >
             <img src="/assets/images/mobilelocation.png" className="h-8 mt-2" alt="" />
-            <p>Keerai Kadai Ventures Pvt Ltd #10, Ramalinga Nagar 1st Layout, Saibaba Colony, Coimbatore - 38 TAMIL NADU</p>
+            <p>Ponmaran Illam 101, Erode Main Road, Muthugoundanpudur, Salangapalayam P.O., Kavindapadi, Erode, Tamilnadu - 638 455.</p>
           </div>
           <div className="flex justify-center items-center ml-1 gap-5 px-3" >
             <img src="/assets/images/mobilewhite.png" className="h-8 " alt="" />
-            <p>90477 50005</p>
+            <p>+91 9842997700, 9952846456, 9087016838</p>
           </div>
           <div className="flex justify-center items-center  gap-5 px-3" >
             <img src="/assets/images/mobileemail.png" className="h-8 " alt="" />
-            <p>Keeraikadai@gmail.com</p>
+            <p>sambunatureoil@gmail.com</p>
           </div>
         </div>
 
@@ -300,7 +300,7 @@ const Contact = () => {
         {/* map section  */}
 
         <div className="mt-10 mb-5 space-y-5" >
-          <p className="text-center text-2xl max-md:hidden">Reach <span className="text-primary"> Keeraikadai</span> Directly</p>
+          <p className="text-center text-2xl max-md:hidden">Reach <span className="text-primary">Sambu Naturals </span> Directly</p>
           {/* <img src="/assets/images/mapimage.png" className="h-64 w-full" alt="" /> */}
         </div>
 
@@ -312,7 +312,7 @@ const Contact = () => {
       <div className="flex justify-center mb-10">
 
           <div className="w-screen ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1909313762926!2d76.93829597468914!3d11.02429705457351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858e87203e683%3A0x52fc09ea47d781c0!2sKeeraiKadai.com!5e0!3m2!1sen!2sin!4v1685611940475!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" height='460' referrerPolicy="no-referrer-when-downgrade" style={{width:'100%'}}></iframe>
+            <iframe src="https://www.google.com/maps/embed?11.4156368,77.5748171,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba96ac0d22b30dd:0xbbecd9084e97cdc6!8m2!3d11.4156316!4d77.5794305!16s%2Fg%2F11dym5z792?entry=ttu"  allowFullScreen="" loading="lazy" height='460' referrerPolicy="no-referrer-when-downgrade" style={{width:'100%'}}></iframe>
           </div>
         </div>
     </>

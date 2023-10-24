@@ -30,7 +30,7 @@ import { CartContext } from './Contextapi/AppContext'
 
 function App() {
   
-  document.title = "Keeraikadai"
+  document.title = "Sambu Naturals"
 
   const { loading, makeRequest } = useFetchData();
   const { toasts } = useToasterStore();
@@ -161,7 +161,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <TopNavbar />
+        {/* <TopNavbar /> */}
         <Navbar data={CartData} />
 
         <Routes>
@@ -170,17 +170,17 @@ function App() {
           <Route path='/shop' element={<Shop />} />
           <Route path='/productdetail' element={<ProductDetail />} />
 
-          <Route path='/nutraceuticals' element={<Nutraceuticals />} />
-          <Route path='/media' element={<Media />} />
+          {/* <Route path='/nutraceuticals' element={<Nutraceuticals />} /> */}
+          {/* <Route path='/media' element={<Media />} /> */}
           <Route path='/contact' element={<Contact />} />
-          <Route path='/investor' element={<Investor />} />
+          {/* <Route path='/investor' element={<Investor />} /> */}
 
           <Route path='/profile' element={<Profile />} />
 
           <Route path='/privacypolicy' element={<PrivatePolicy />} />
           <Route path='/shippingpolicy' element={<ShippingPolicy />} />
-          <Route path='/refundpolicy' element={<RefundPolicy />} />
-          <Route path='/whatwedo' element={<WhatWeDo />} />
+          {/* <Route path='/refundpolicy' element={<RefundPolicy />} /> */}
+          {/* <Route path='/whatwedo' element={<WhatWeDo />} /> */}
           {/* <Route path='/myaccount' element={<MyAccount />} /> */}
           <Route path='/cart' element={<Cart />} />
           <Route path='/terms' element={<Terms />} />

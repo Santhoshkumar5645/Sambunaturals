@@ -6,6 +6,15 @@ const Terms = () => {
     ScrolltoTop()
 }, [])
 
+
+const paymentData  = [
+ "We or our authorized billing agents are authorized to charge your designated payment method.",
+ "We may submit charges incurred under your account for payment; and you will be responsible for such charges, even if your membership is cancelled or terminated. You agree that we may charge your payment method for all amounts due to us without additional notice or consent unless required otherwise by law.",
+ "You are responsible for all charges incurred under your account made by you or anyone who uses your account (including your children, family, or friends).",
+ "We may, in our discretion, post charges to your payment method individually or may aggregate your charges with other purchases you make on the site and apply those charges to your next billing cycle.",
+ "You must notify us about any billing problems or discrepancies within 5 days after they first appear on the statement you receive from your bank or Credit Card Company. If you do not bring such problems or discrepancies to our attention within 5 days, you agree that you waive the right to dispute such problems or discrepancies."
+]
+
   return (
     <>
       <section className="">
@@ -27,438 +36,174 @@ const Terms = () => {
           ></img>
         </div>
 
-        <div className="px-6 md:px-12 xl:text-lg  lg:text-md  text-justify  my-8 md:my-16  font-AVENIR font-medium space-y-4  md:mx-10 ">
-          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary font-AVENIR pb-4">
+        <div className="px-6 md:px-12 xl:text-lg  lg:text-md  text-justify  my-8 md:my-16  font-AVENIR font-medium space-y-2  md:mx-10 ">
+          {/* <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary font-AVENIR pb-4">
             Welcome to Keerai Kadai!
-          </h1>
+          </h1> */}
          
             <p>
-              These terms and conditions outline the rules and regulations for
-              the use of Keerai Kadai Ventures Private Limited’s Website,
-              located at
-           www.keeraikadai.com.
+            Welcome to the www.sambunaturals.bio website (the Site). The site is operated by Ponmaram Illam having registered office at 101, Erode Main Road, Muthugoundanpudur, Salangapalayam P.O., Kavindapadi, Erode, Tamilnadu - 638 455. This site provides services to you subject to the notices, terms, and conditions set forth in this agreement (the Agreement). In addition, when you use any of our services (e.g., Customer Reviews), you will be subject to the rules, guidelines, policies, terms, and conditions applicable to such service, and they are incorporated into this Agreement by this reference. We reserve the right to change this Site and these terms and conditions at any time. Accessing, browsing or using the site indicated your agreement to all the terms and conditions in this agreement.
           </p>
 
           
-            <p>
-              By accessing this website, we assume you accept these terms and
-              conditions. Do not continue to use Keerai Kadai if you do not
-              agree
-           to take all of the terms and conditions stated on this page.
-          </p>
-
-            <p>
-              The following terminology applies to these Terms and Conditions,
-              Privacy Statement and Disclaimer Notice and all Agreements:
            
-              “Client”, “You” and “Your” refers to you, the person logged onto
-              this website and compliant to the Company’s terms and conditions.
-            
-              “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our
-              Company. “Party”, “Parties”, or “Us”, refers to both the Client
-              and
-           
-              ourselves. All terms refer to the offer, acceptance and
-              consideration of payment necessary to undertake the process of our
-              assistance to
-           
-              the Client in the most appropriate manner for the express purpose
-              of meeting the Client’s needs in respect of provision of the{" "}
-           
-              Company’s stated services, in accordance with and subject to,
-              prevailing law of India. Any use of the above terminology or other
-              words
-            in the singular, plural, capitalization and/or he/she or they, are
-            taken as interchangeable and therefore as referring to same.
-          </p>
-
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
-            Cookies
+          Terms of Use
           </h1>
          
             <p>
-              We employ the use of cookies. By accessing Keerai Kadai, you
-              agreed to use cookies in agreement with the Keerai Kadai Ventures
-             Private Limited’s Privacy Policy.
+            Services of the Site would be available to the persons except for persons who are “incompetent to contract” within the meaning of the Indian Contract Act, 1872 including un-discharged insolvents, etc. are not eligible to use the Site. If you are a minor i.e. under the age of 18 years but at least 13 years of age you may use the Site only under the supervision of a parent or legal guardian who agrees to be bound by these Terms of Use. If your age is below 18 years your parents or legal guardians can transact on behalf of you if they are registered users.
           </p>
 
-            <p>
-              Most interactive websites use cookies to let us retrieve the
-              user’s details for each visit. Cookies are used by our website to
-              enable the{" "}
            
-              functionality of certain areas to make it easier for people
-              visiting our website. Some of our affiliate/advertising partners
-              may also use
-           
-            cookies.
-          </p>
-
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
-            License
+          License and Website Access
           </h1>
          
             <p>
-              Unless otherwise stated, Keerai Kadai Ventures Private Limited
-              and/or its licensors own the intellectual property rights for all
-              material on
-           
-              Keerai Kadai. All intellectual property rights are reserved. You
-              may access this from Keerai Kadai for your own personal use
-              subjected to
-            
-            restrictions set in these terms and conditions.
+            Sambu Oil grants you a limited sub-license to access and make personal use of this site and not to download (other than page caching) or modify it, or any portion of it, except with express written consent of Sambu Oil. This license does not include any resale or commercial use of this site or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of this site or its contents; any downloading or copying of account information for the benefit of another merchant; or any use of data mining, robots, or similar data gathering and extraction tools. This site or any portion of this site may not be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without the express written consent of Sambu Oil. You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of the Site or of Sambu Oil and its affiliates without express written consent. You may not use any meta tags or any other “hidden text” utilizing the Site’s or Sambu Oil’s name or trademarks without the express written consent of Sambu Oil. Any breach of this Agreement shall result in the immediate revocation of the license granted in this paragraph without notice to you.
           </p>
+          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
+          Account and Registration Obligation
+          </h1>
+         
+            <p>
+            All shoppers have to register and login in to place orders on the Site. You have to keep your account and registration details up to date and correct for communications related to your purchases from the site. By agreeing to the terms and conditions, the shopper agrees to receive promotional communication and newsletters upon registration. The customer can opt-out either by unsubscribing in “My Account” or by contacting customer service.
+          </p>
+            
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
-            You must not:
+          Return & Cancelation Policy
           </h1>
+         
+            <p>
+            Sambu Oil take utmost care in giving the best products to its consumers, in spite of that if the consumer is not satisfied with the products, the following are the general return and replacement policy applies to all items sold in sambunaturals.bio
+          </p>
+
+          <p>In the event of an incorrect order being delivered please send across a picture of the parcel to us on Whatsapp or Email or Call and we will initiate another order which will reach you within 5 working days.
+            In the event of the customer not satisfying with the products please call or Whatsapp or email to following numbers. We will send across a replacement parcel the next day which should reach you within the next 5 days.</p>
+         
+            <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
+            Shipping
+          </h1>
+         
+            <p>
+            Estimated time of delivery 2 to 3 days from the date of technically and commercially clear order and acceptance. Shipping charges will be extra otherwise mentioned clearly. No delivery during after office hours. We have rights to cancel order at any circumstance. Shipping information will be provided on request only.
+          </p>
+
+          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary pt-5">
+          Customer Obligations
+          </h1>
+          <p className="py-2">Customer are bound to the terms and condition and should agree not to use the site for the below-mentioned purposes:</p>
           <div className="flex  gap-1">
             <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3" alt="" />
-            <p>Republish material from Keerai Kadai</p>
+            <p>Disseminating any unlawful, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, or otherwise objectionable material.</p>
           </div>
           <div className="flex  gap-1">
             <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3 "  alt="" />
-            <p>Sell, rent or sub-license material from Keerai Kadai</p>
+            <p>Transmitting material that encourages conduct that constitutes a criminal offense or results in civil liability or otherwise breaches any relevant laws, regulations or code of practice.</p>
           </div>
           <div className="flex gap-1">
             <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3 "  alt="" />
-            <p>Reproduce, duplicate or copy material from Keerai Kada</p>
+            <p>Gaining unauthorized access to other computer systems.</p>
           </div>
           <div className="flex gap-1">
             <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3"  alt="" />
-            <p>Redistribute content from Keerai Kadai</p>
+            <p>Interfering with any other person’s use or enjoyment of the Site.</p>
+          </div>
+          <div className="flex gap-1">
+            <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3"  alt="" />
+            <p>Interfering or disrupting networks or web sites connected to the Site.</p>
+          </div>
+          <div className="flex gap-1">
+            <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3"  alt="" />
+            <p>Making, transmitting or storing electronic copies of materials protected by trademark without the permission of the owner.</p>
+          </div>
+              
+          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4   ">
+          Reviews and Feedbacks
+          </h1>
+
+          <p>
+          Sambu Oil does not regularly review posted Comments, but does reserve the right (but not the obligation) to monitor and edit or remove any Comments submitted to the Site. You grant Sambu Oil the right to use the name that you submit in connection with any Comments. You agree not to use a false email address, impersonate any person or entity, or otherwise mislead as to the origin of any Comments you submit. You are and shall remain solely responsible for the content of any comments you make and you agree to indemnify Sambu Oil and its affiliates for all claims resulting from any comments you submit. Sambu Oiland its affiliates take no responsibility and assume no liability for any comments submitted by you or any third party.
+          </p>
+
+          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
+          Limitation Of Liability
+          </h1>
+          <p>
+          You hereby agree to fully indemnify, defend and hold our company and its parent and affiliates and their respective officers, directors, employees and licensors harmless from and against any and all claims, liability, losses, costs and expenses (including attorneys’ fees) incurred by you in connection with
+          </p>
+
+          <div className="flex  gap-1">
+            <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3" alt="" />
+            <p>Any use or alleged use of Sambu Oil through your account by any person, whether or not authorized by you; or</p>
+          </div>
+          <div className="flex  gap-1">
+            <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3 "  alt="" />
+            <p>The operation and content on your site or</p>
+          </div>
+          <div className="flex gap-1">
+            <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3 "  alt="" />
+            <p>Any breach of your representations and warranties and other covenants under this agreement</p>
           </div>
 
          
             <p>
-              This Agreement shall begin on the date hereof. Our Terms and
-              Conditions were created with the help of the Terms and Conditions
-           
-            Generator.
+            Sambu Oil reserves the right, at its own expense, to assume the exclusive defence and control of any matter otherwise subject to indemnification by you, and in such case, and agree to cooperate with Sambu Oil defence of such claim. Under no circumstances and under no legal theory, tort, contract, strict liability, or otherwise, shall the content producer or Sambu Oil be liable to you or any other person for any indirect, special, incidental, or consequential damages of any character including, without limitation, damages for lost profits, loss of goodwill, work stoppage, accuracy of services, content or results, computer failure or malfunction, damages resulting from disabling of the services.
           </p>
 
-        
-            <p>
-              Parts of this website offer an opportunity for users to post and
-              exchange opinions and information in certain areas of the website.
-           
-              Keerai Kadai Ventures Private Limited does not filter, edit,
-              publish or review Comments prior to their presence on the website.
-            
-              
-              Comments do not reflect the views and opinions of Keerai Kadai
-              Ventures Private Limited, its agents and/or affiliates. Comments
-              reflect
-           
-              the views and opinions of the person who post their views and
-              opinions. To the extent permitted by applicable laws, Keerai Kadai
-           
-             
-              Ventures Private Limited shall not be liable for the Comments or
-              for any liability, damages or expenses caused and/or suffered as a{" "}
-            
-              result of any use of and/or posting of and/or appearance of the
-              Comments on this website.
-            </p>
-         
-
-          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4   ">
-            You warrant and represent that:
-          </h1>
-
-          <p>
-            You are entitled to post the Comments on our website and have all
-            necessary licenses and consents to do so.
-          </p>
-
-         
-            <p>
-              
-              The Comments do not invade any intellectual property right,
-              including without limitation copyright, patent or trademark of any
-              third
-           
-            party.
-          </p>
-
-          <p>
-            The Comments do not contain any defamatory, libellous, offensive,
-            indecent or otherwise unlawful material which is an invasion of
-            privacy.
-          </p>
-
-          <p>
-            The Comments will not be used to solicit or promote business or
-            custom or present commercial activities or unlawful activity.
-          </p>
-
-         
-            <p>
-              You hereby grant Keerai Kadai Ventures Private Limited a
-              non-exclusive license to use, reproduce, edit and authorize others
-              to use,
-           
-            reproduce and edit any of your Comments in any and all forms,
-            formats or media.
-          </p>
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
-            Hyperlinking to our Content
+          Non Commercial Use
           </h1>
-          <p>
-            The following organizations may link to our Website without prior
-            written approval:
-          </p>
-
-          <p>Government agencies;</p>
-
-          <p>Search engines;</p>
-
-          <p>News organizations;</p>
-
-         
-            <p>
-              Online directory distributors may link to our Website in the same
-              manner as they hyperlink to the Websites of other listed
-              businesses;
-           
-              and System wide Accredited Businesses exceptsoliciting non-profit
-              organizations, charity, shopping malls, and charity fundraising
-            
-            groups which may not hyperlink to our Website.
-          </p>
-
-          
-            <p>
-              These organizations may link to our home page, to publications or
-              to other Website information so long as the link: (a) is not in
-              any way
-           
-              deceptive; (b) does not falsely imply sponsorship, endorsement or
-              approval of the linking party and its products and/or services;
-              and (c)
-            
-            fits within the context of the linking party’s site.
-          </p>
-
-          <p>
-            We may consider and approve other link requests from the following
-            types of organizations:
-          </p>
-
-          <p>commonly-known consumer and/or business information sources;</p>
-
-          <p>dot.com community sites;</p>
-
-          <p>associations or other groups representing charities;</p>
-
-          <p>online directory distributors;</p>
-
-          <p>internet portals;</p>
-
-          <p>accounting, law and consulting firms; and</p>
-
-          <p>educational institutions and trade associations.</p>
-
-         
-            <p>
-              We will approve link requests from these organizations if we
-              decide that: (a) the link would not make us look unfavourably to
-              ourselves{" "}
-           
-              or to our accredited businesses; (b) the organization does not
-              have any negative records with us; (c) the benefit to us from the
-              visibility
-          
-              of the hyperlink compensates the absence of Keerai Kadai Ventures
-              Private Limited; and (d) the link is in the context of general
-              resource
-            
-            information.
-          </p>
-
-          
-            <p>
-              These organizations may link to our home page so long as the link:
-              (a) is not in any way deceptive; (b) does not falsely imply{" "}
-           
-              sponsorship, endorsement or approval of the linking party and its
-              products or services; and (c) fits within the context of the
-              linking{" "}
-            
-            party’s site.
-          </p>
-
-         
-            <p>
-              If you are one of the organizations listed in paragraph 2 above
-              and are interested in linking to our website, you must inform us
-              by
-          
-              sending an e-mail to Keerai Kadai Ventures Private Limited. Please
-              include your name, your organization name, contact information as{" "}
-           
-            well as
-          
-
-         
-            
-              the URL of your site, a list of any URLs from which you intend to
-              link to our website, and a list of the URLs on our site to which
-              you
-           
-            would like to link. Wait 2-3 weeks for a response.
-          </p>
-
-          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-5">
-            Approved organizations may hyperlink to our Website as follows:
-          </h1>
-          <p>By use of our corporate name; or</p>
-
-          <p>By use of the uniform resource locator being linked to; or</p>
-
-         
-            <p>
-              By use of any other description of our Website being linked to
-              that makes sense within the context and format of content on the
-              linking
-            
-            party’s site.
-          </p>
-
-         
-            <p>
-              No use of Keerai Kadai Ventures Private Limited’s logo or other
-              artwork will be allowed for linking absent a trademark license
-            
-            agreement.
-          </p>
+          <p>All materials, including images, text, illustrations, designs, icons, photographs, programs, video clips and written and other materials that are part of this Website (collectively, the “Contents”) are intended solely for personal, non-commercial use. You may download or copy the Contents and other downloadable materials displayed on the Website for your personal use only. No right, title or interest in any downloaded materials or software is transferred to you as a result of any such downloading or copying. You may not reproduce , publish, transmit, distribute, display, modify, create derivative works from, sell or participate in any sale of or exploit in any way, in whole or in part, any of the Contents, the Website or any related software. All software used on this Website is the property of Sambu Oil or its licensees and suppliers. The Contents and software on this Website may be used only as a shopping resource. Any other use, including the reproduction, modification, distribution, transmission, republication, display, or performance, of the Contents on this Website is strictly prohibited. Unless otherwise noted, all trademarks, trade dress and/or other intellectual property owned, controlled or licensed by Sambu Oil, and are protected by Intellectual Property rights.</p>
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4">
-            iFrames
+          Advertisements
           </h1>
          
             <p>
-              Without prior approval and written permission, you may not create
-              frames around our Webpages that alter in any way the visual{" "}
-           
-            presentation or appearance of our Website.
+            Some of the services are supported by advertisements and sales promotions. These advertisements may be targeted to the content of information stored on the services and queries made through the services or other information. The manner, mode and extent of advertising by Sambu Oil are subject to change without specific notice to you.
           </p>
 
-          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4 ">
-            Content Liability
+          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary  pt-3">
+          Payment and Billing
           </h1>
         
             <p>
-              We shall not be held responsible for any content that appears on
-              your Website. You agree to protect and defend us against all
-              claims
-
-              that is rising on your Website. No link(s) should appear on any
-              Website that may be interpreted as libellous, obscene or criminal,
-              or
-            
-            which infringes, otherwise violates, or advocates the infringement
-            or other violation of, any third party rights.
+            You must select a payment method to pay us for any purchases you make from us. Every time you use the service, you reaffirm that
           </p>
+             {paymentData.map((values, index)=>{
+                 return   <div className="flex  gap-1">
+                    <img src="assets/images/termsarrow.png" className="lg:w-7 h-7 sm:w-3 "  alt="" />
+                    <p>{values}</p>
+                  </div>
+             })}
+         
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4 ">
-            Your Privacy
+          Trademark Information
           </h1>
           <p>
-            Please read <span className="underline">Privacy Policy</span>
+          All trademarks, logos displayed on the Site are our property or the property of other third parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.
           </p>
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4 ">
-            Reservation of Rights
+          Modification of terms and conditions
           </h1>
          
             <p>
-              We reserve the right to request that you remove all links or any
-              particular link to our Website. You approve to immediately remove
-              all
-              
-              links to our Website upon request. We also reserve the right to
-              amend these terms and conditions and it’s linking policy at any
-              time. By
-           
-            continuously linking to our Website, you agree to be bound to and
-            follow these linking terms and conditions.
+            Sambu Oil may at any time modify the Terms & Conditions of Use of the Website without any prior notification to you. You can access the latest version of these Terms & Conditions at any given time on the Site. You should regularly review the Terms & Conditions on the Site. In the event the modified Terms & Conditions is not acceptable to you, you should discontinue using the Service. However, if you continue to use the Service you shall be deemed to have agreed to accept and abide by the modified Terms & Conditions of Use of this Site.
           </p>
 
           <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary py-4">
-            Removal of links from our website
+          Termination
           </h1>
           
             <p>
-              If you find any link on our Website that is offensive for any
-              reason, you are free to contact and inform us any moment. We will
-              consider
-            
-            requests to remove links but we are not obligated to or so or to
-            respond to you directly.
-          </p>
-
-         
-            <p>
-              We do not ensure that the information on this website is correct,
-              we do not warrant its completeness or accuracy; nor do we promise
-              to
-            
-            ensure that the website remains available or that the material on
-            the website is kept up to date.
-            </p>
-           
-          <h1 className="font-semibold md:font-medium text-2xl md:text-3xl  text-primary ">
-            Disclaimer
-          </h1>
-         
-            <p>
-              To the maximum extent permitted by applicable law, we exclude all
-              representations, warranties and conditions relating to our website
-           
-            and the use of this website. Nothing in this disclaimer will:
-          </p>
-
-          <p>
-            limit or exclude our or your liability for death or personal injury;
-          </p>
-
-          <p>
-            limit or exclude our or your liability for fraud or fraudulent
-            misrepresentation;
-          </p>
-
-          <p className="">
-            <p>
-              limit any of our or your liabilities in any way that is not
-              permitted under applicable law; or
-            </p>
-            exclude any of our or your liabilities that may not be excluded
-            under applicable law.
-          </p>
-
-         
-            <p>
-              The limitations and prohibitions of liability set in this Section
-              and elsewhere in this disclaimer: (a) are subject to the preceding
-           
-              paragraph; and (b) govern all liabilities arising under the
-              disclaimer, including liabilities arising in contract, in tort and
-              for breach of
-            </p>
-            statutory duty.
-          
-
-         
-            <p>
-              As long as the website and the information and services on the
-              website are provided free of charge, we will not be liable for any
-              loss or{" "}
-            </p>
-            damage of any nature.
-          
+            This User Agreement is effective unless and until terminated by either customer or Sambu Oil. You may terminate this User Agreement at any time, provided that you discontinue any further use of this Site. Sambu Oil may terminate this User Agreement at any time and may do so immediately without notice, and accordingly deny you access to the Site, Such termination will be without any liability to us. Upon any termination of the User Agreement by either us, you must promptly destroy all materials downloaded or otherwise obtained from this Site, as well as all copies of such materials, whether made under the User Agreement or otherwise. Our right to any Comments shall survive upon termination of this User Agreement. Any such termination of the User Agreement shall not cancel your obligation to pay for the product already ordered from the Website or affect any liability that may have arisen under the User Agreement.
+          </p>       
         </div>
       </section>
     </>

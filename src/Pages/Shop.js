@@ -7,7 +7,7 @@ import ImageFade from "../Components/Shop/ImageFade";
 import axios from "axios";
 import useFetchData from "../CustomHooks/useFetchData";
 import { LocalStorageService } from "../Services/LocalStorageService";
-import { ScrolltoTop } from "../Utility";
+import { Loader, ScrolltoTop } from "../Utility";
 import {CartContext} from '../Contextapi/AppContext'
 
 
@@ -74,23 +74,21 @@ const Shop = () => {
   const ComponentToggler = (id, name) => {
     switch (id) {
      
-      case 0:
-        return setData(category && category[0].products), setCategoryTitle(name)
-      case 1:
-        return setData(category && category[1].products), setCategoryTitle(name)
-      case 2:
-        return setData(category && category[2].products), setCategoryTitle(name)
+      case id:
+        return setData(category && category[id].products), setCategoryTitle(name)
+      // case 1:
+      //   return setData(category && category[1].products), setCategoryTitle(name)
+      // case 2:
+      //   return setData(category && category[2].products), setCategoryTitle(name)
    
-      case 3:
-        return setData(category && category[3].products), setCategoryTitle(name)
-      case 4:
-        return setData(category && category[4].products), setCategoryTitle(name)
-      case 5:
-        return setData(category && category[5].products), setCategoryTitle(name)
-      case 6:
-        return setData(category && category[6].products), setCategoryTitle(name)
-      case 7:
-        return setData(category && category[7].products), setCategoryTitle(name)
+      // case 3:
+      //   return setData(category && category[3].products), setCategoryTitle(name)
+      // case 4:
+      //   return setData(category && category[4].products), setCategoryTitle(name)
+      // case 5:
+      //   return setData(category && category[5].products), setCategoryTitle(name)
+      // case 6:
+      //   return setData(category && category[6].products), setCategoryTitle(name)
 
       default:
         return "";
@@ -99,8 +97,9 @@ const Shop = () => {
 
   return (
     <>
+   
       <section className="mb-20 relative">
-        <div className="flex flex-col  md:flex-row justify-center items-center space-between bg-white md:bg-[#EDF6EA]  w-[98%] md:mx-auto md:py-4 lg:py-1 mt-3 h-auto px-16  rounded-lg   ">
+        <div className="flex flex-col  md:flex-row justify-evenly items-center space-between bg-white md:bg-[#EDF6EA]  w-[98%] md:mx-auto md:py-4 lg:py-1 mt-3 h-auto px-16  rounded-lg   ">
           <div className="max-md:hidden">
             <div className=" flex items-center gap-3">
               <p className="text-primary">100 % natural and healthy</p>
@@ -113,19 +112,18 @@ const Shop = () => {
             <img src="assets/images/greenline.png" className="h-4" alt="" />
             <div className="mt-3 space-y-2 lg:space-y-5">
               <p className="text-black font-bold md:text-2xl lg:text-3xl xl:text-4xl">
-                Organic Spinach Based
+                Lorem ipsum dolor amet.
               </p>
              
              
                 <TextTransition springConfig={presets.wobbly} className="text-primary font-bold md:text-6xl xl:text-7xl">{TEXTS[index % TEXTS.length]}</TextTransition>
             
               <p className="text-black font-bold md:text-2xl lg:text-3xl xl:text-4xl">
-                Eat the Healthy Food.
+                Lorem, ipsum dolor.
               </p>
               <hr className="border-primary w-72" />
               <p className="md:text-sm lg:text-md  xl:text-lg text-black">
-                Natural health boosting products at keeraikadai ,will lead you a
-                happy life
+                Lorem ipsum dolor adipisicing elit. Alias, laborum. Natus, aliquid.
               </p>
             </div>
           </div>
@@ -144,7 +142,7 @@ const Shop = () => {
             <img
               src="assets/images/shop.png"
               alt=""
-              className="w-5/6  object-cover mt-2 h-5/6"
+              className="  object-cover mt-2 "
             />
           </div>
           <div className="md:hidden mt-3 flex items-center">
@@ -153,14 +151,16 @@ const Shop = () => {
               className="absolute left-0 mr-2"
               alt=""
             />
-            <p className=" md:text-sm xl:text-md 2xl:text-lg font-semibold text-center text-black">
+            {/* <p className=" md:text-sm xl:text-md 2xl:text-lg font-semibold text-center text-black">
               Natural health boosting products at keerakadai ,will lead you a
               happy life
-            </p>
+            </p> */}
           </div>
         </div>
 
         {/* items  */}
+        {loading ? <Loader /> :
+        <div>
         <div className="flex  md:justify-end items-center gap-3 md:mr-10 mt-6 text-[#00000099] scrollbar-hide  max-md:overflow-x-scroll  max-md:w-screen  ">
 
           {category && category.map((values, index) => {
@@ -181,7 +181,7 @@ const Shop = () => {
               alt=""
             />
           </div> */}
-        </div>
+        </div>  
 
         {/* All products  */}
 
@@ -208,10 +208,11 @@ const Shop = () => {
           })}
 
         </div>
-
+        </div>
+      }
         {/* image slider  */}
 
-        <div className="text-center flex justify-center items-center flex-col relative space-y-4 ">
+        {/* <div className="text-center flex justify-center items-center flex-col relative space-y-4 ">
           <div className="flex items-center ">
             <div className="space-y-4">
               <h1 className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-AVENIR font-medium">
@@ -234,10 +235,10 @@ const Shop = () => {
 
           <ImageFade />
           
-        </div>
+        </div> */}
 
         {/* Hot Deals  */}
-        <div className="mt-5 relative">
+        {/* <div className="mt-5 relative">
           <div className="text-center ">
             <p className=" text-xl md:text-2xl lg:text-3xl xl:text-4xl font-AVENIR font-semibold">
               Hot <span className="text-[#F38454]"> Deals</span>{" "}
@@ -256,11 +257,11 @@ const Shop = () => {
 
           </div>
 
+        </div> */}
           {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 overflow-scroll lg:grid-cols-4 xl:grid-cols-5 justify-center items-center container mx-auto ml-24 md:ml-16 */}
-        </div>
 
         {/* Shop now  */}
-        <div className="flex flex-col justify-center items-center mt-8">
+        {/* <div className="flex flex-col justify-center items-center mt-8">
           <p className=" text-xl md:text-2xl lg:text-3xl xl:text-4xl font-AVENIR font-semibold">
             Shop <span className="text-primary">Now</span>{" "}
           </p>
@@ -315,10 +316,11 @@ const Shop = () => {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
 
       </section>
+      
     </>
   );
 };

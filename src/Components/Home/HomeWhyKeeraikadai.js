@@ -42,7 +42,7 @@ const HomeWhyKeeraikadai = () => {
      <div>
           <div className="flex flex-col font-AVENIR justify-center items-center space-y-2">
             <p className=" text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-AVENIR font-medium">
-              Why <span className="text-primary">Keeraikadai?</span>{" "}
+              Why <span className="text-primary">Sambu Naturals?</span>{" "}
             </p>
             <p className="max-md:hidden">So many reasons to choose </p>
           </div>

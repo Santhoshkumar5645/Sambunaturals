@@ -52,23 +52,23 @@ const Home = () => {
     <>
       <section className="pb-20">
         <Banner />
-        <div className="relative">
+        {/* <div className="relative">
           <div className="flex max-md:bg-[#D2FF8C85] justify-center shrink-0 md:mt-8 overflow-x-hidden px-5 items-center">
             <QualityCard />
           </div>
-        </div>
-        <LocationRegister />
+        </div> */}
+        {/* <LocationRegister /> */}
         <KeeraikadaiSpecial />
         {/* Our products  */}
         <HomeOurProducts firstThreeData={firstThreeData} />
         {/* <Subscription /> */}
-        <Partners />
+        {/* <Partners /> */}
         <SwiperProduct data={ourProductsData && ourProductsData} />
 
         <HomeWhyKeeraikadai />
 
-        <MediaPartners />
-        <SocialConnection />
+        {/* <MediaPartners /> */}
+        {/* <SocialConnection /> */}
 
         <Feedback />
       </section>

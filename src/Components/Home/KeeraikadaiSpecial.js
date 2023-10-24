@@ -15,8 +15,8 @@ const KeeraikadaiSpecial = () => {
           />
           <div className="relative shrink-0">
             <p className="text-xl md:text-3xl lg:text-4xl xl:text-[3rem]  font-AVENIR font-medium ">
-              Carefully Crafted{" "}
-              <span className="text-primary">Range of Products</span>{" "}
+              Lorem, ipsum
+              <span className="text-primary"> Lorem, ipsum dolor.</span>{" "}
             </p>
             <img
               src="/assets/images/singleleaf.png"
@@ -25,7 +25,7 @@ const KeeraikadaiSpecial = () => {
             />
           </div>
           <p className="max-md:hidden text-md">
-            At Keeraikadai.com, everything we make will surprise you.
+            At Sambu Naturals, everything we make will surprise you.
           </p>
           <img
             src="/assets/images/homecornerleaf.png"
@@ -34,30 +34,27 @@ const KeeraikadaiSpecial = () => {
           />
         </div>
 
-        <div className="flex max-md:flex-col justify-center max-md:pt-3 font-AVENIR items-center px-8 md:pr-16">
-          <div className="w-2/2 md:w-1/2 -mt-12 mr-10 ">
+        <div className="flex max-md:flex-col container mx-auto px-5 md:px-8 gap-8 justify-center max-md:pt-3 font-AVENIR items-center ">
+          <div className="w-2/2 md:w-1/2   ">
             
             <img
-              src="/assets/images/homecontent1.png"
-              className="h-4/5 drop-shadow-sm"
+              src="/assets/images/homecontent1.jpeg"
+              className="drop-shadow-sm rounded-lg"
               alt=""
             />
             {/* md:hover:animate-bounce */}
           </div>
-          <div className="w-2/2 md:w-1/2 max-md:flex flex-col  font-AVENIR justify-center items-center space-y-2 md:space-y-3">
-            <div className='md:space-y-3'>
-            <p className="text-xl font-medium  md:text-3xl lg:text-4xl ">
-              Worlds first Soup in Dip
+          <div className="w-2/2 md:w-1/2 max-md:flex flex-col   font-AVENIR justify-center items-center space-y-2 md:space-y-3">
+            <div className='md:space-y-3 '>
+            <p className="text-xl font-medium  max-md:hidden md:text-3xl lg:text-4xl ">
+              Lorem ipsum dolor sit amet.
             </p>
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl md:text-2xl ">
              
-              <span className="text-primary">Nature’s</span> Health in a Dip
+              <span className="text-primary">Nature’s</span> Lorem, ipsum dolor.
             </p>
             <p className="text-sm max-md:hidden lg:text-md">
-              A special assortment of Greeny Dip soups, now available as a Pack
-              of 3 variants. Perfect plant based drinks to partner with your
-              daily healthy Routine! This Pack contains – Ashwagandha Drink,
-              Guava Leaf Drink and Balloon vine Drink
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, id nesciunt. Nostrum sit nihil amet vero aliquid eum neque deserunt! Animi fuga asperiores deserunt sapiente? Eligendi a voluptate libero, suscipit eos repellendus.
             </p>
             </div>
             <button
@@ -69,28 +66,27 @@ const KeeraikadaiSpecial = () => {
           </div>
         </div>
 
-        <div className="flex flex-row-reverse mt-8  font-AVENIR max-md:flex-col justify-center items-center px-8 md:pr-16">
-          <div className="w-2/2 md:w-1/2 -mt-12 mr-10 ">
+        
+
+        <div className="flex flex-row-reverse container mx-auto px-5 md:px-8 gap-8 mt-8 font-AVENIR max-md:flex-col justify-center items-center ">
+          <div className="w-2/2 md:w-1/2 ">
             <img
-              src="/assets/images/homecontent2.png"
-              className="h-4/5 drop-shadow-sm"
+              src="/assets/images/homecontent2.jpg"
+              className="rounded-lg drop-shadow-sm"
               alt=""
             />
             {/* md:hover:animate-bounce */}
           </div>
-          <div className="w-2/2 md:w-1/2 max-md:flex flex-col justify-center items-center space-y-2  md:space-y-3 md:ml-20">
+          <div className="w-2/2 md:w-1/2 max-md:flex flex-col justify-center items-center space-y-2  md:space-y-3 ">
             <div className=" max-md:flex flex-row-reverse items-center justify-center md:space-y-2 gap-2 text-xl">
-              <p className="  md:text-3xl lg:text-4xl ">Ready to Eat</p>
+              <p className="  md:text-3xl lg:text-4xl ">Lorem, ipsum dolor.</p>
               <p className=" md:text-2xl">
                 {" "}
-                <span className="text-primary">Green’s</span> Curry
+                <span className="text-primary">lorem</span> Lorem
               </p>
             </div>
             <p className="text-sm lg:text-md max-md:hidden">
-              commonly known as Palak across India is rich in iron, fiber, beta
-              carotene, vitamin-C, vitamin-A, calcium, folate and potassium and
-              helps in digestion and weight loss, can be consumed by diabetic
-              people as it lowers insulin levels, maintains blood pressure.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab libero eum maxime, perspiciatis totam esse dolorum commodi tempora ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusantium, facilis veniam tenetur officiis odit eum voluptas doloremque quidem dignissimos?
             </p>
             <button
               onClick={() => navigate("/shop")}

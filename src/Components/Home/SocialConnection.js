@@ -37,7 +37,7 @@ const SocialConnection = () => {
           </div>
           <div className="md:w-1/2 max-md:hidden text-center  space-y-4">
             <p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">We</p>
-            <p className="text-primary text-4xl">Keeraikadai.com</p>
+            <p className="text-primary text-4xl">Sambu Nautrals</p>
             <TextTransition
               springConfig={presets.wobbly}
               className="text-3xl flex justify-center items-center ml-3"

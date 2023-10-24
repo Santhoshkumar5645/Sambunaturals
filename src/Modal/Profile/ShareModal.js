@@ -12,7 +12,7 @@ import {
 
 function ShareModal(props) {
      const [copyData, setCopyData] = useState(true)
-    const linkData = 'https://www.keeraikadai.com/'  //live url
+    const linkData =  window.location.href;  //live url
     const copyLink = ()=>{
         return navigator.clipboard.writeText(linkData)
     } 

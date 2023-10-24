@@ -296,7 +296,6 @@ const YourOrder = (props) => {
       return;
     }
 
-    console.log(placeOrderData);
     const { amount, id, currency } = data_construct?.order;
     const { email, mobile_number, name } = data_construct?.user;
 
