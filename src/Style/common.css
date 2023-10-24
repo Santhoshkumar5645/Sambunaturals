@@ -1,0 +1,10 @@
+.swiper-3d .swiper-slide-shadow-left{
+    opacity: 0 !important;
+  }
+  .swiper-3d .swiper-slide-shadow-right{
+    opacity: 0 !important;
+  }
+
+  .checking_select__menu{
+    color: red;
+  }
