@@ -229,7 +229,7 @@ const Contact = () => {
           <div className="w-2/2 md:w-1/2 md:text-sm lg:text-md xl:text-lg max-md:hidden">
             <div className="flex">
               <p className="uppercase shrink-0 font-semibold text-2xl">
-                send us email
+                GET OFFICE INFO
               </p>
               <hr className="w-52 ml-3 mt-6" />
             </div>
@@ -237,35 +237,43 @@ const Contact = () => {
               <div className="flex md:gap-2 lg:gap-5 items-center">
                 <div> <img src="/assets/images/contactmobile.png" alt="" /></div>
                 <div>
-                <a href="https://api.whatsapp.com/send/?phone=9047750005&text=&type=phone_number&app_absent=0" target={'_blank'}><p className="cursor-pointer" >Whats App : {info?.basicInfo?.whatsapp}</p></a>
-                  <p className="cursor-pointer" onClick={() => {
+                <a href="https://api.whatsapp.com/send/?phone=9047750005&text=&type=phone_number&app_absent=0" target={'_blank'}><p className="cursor-pointer whitespace-nowrap" >Whats App : 98429 97700</p></a>
+                  <p className="cursor-pointer whitespace-nowrap" onClick={() => {
                       window.open("tel:" + " 90477 50005");
-                    }}>Contact us : {info?.basicInfo?.mobile}</p>
+                    }}>Contact us : 98429 97700</p>
+                    {/* {info?.basicInfo?.mobile} */}
                 </div>
               </div>
+             
+            </div>
+            <div className="flex max-md:flex-col mt-8 gap-5 md:gap-4 lg:gap-10 font-AVENIR">
+              
               <div  className="flex  md:gap-2 lg:gap-5 items-center">
                 <img src="/assets/images/contactemail.png" alt="" />
-                <p className="">Email: {info?.basicInfo?.email} </p>
+                <p className="">Email: sambunatureoil@gmail.com </p>
               </div>
             </div>
 
-            <div className="flex items-center mt-5 gap-5 font-AVENIR">
+            <div className="flex items-center mt-8 gap-5 font-AVENIR">
               <img src="/assets/images/contactlocation.png" alt="" />
-              <p>Head Office : {info?.basicInfo?.address}</p>
+              <p>101, Erode Main Road, <br />
+Muthugoundanpudur, Salangapalayam P.O., <br /> Kavindapadi,
+Erode,<br /> Tamilnadu - 638455.</p>
+                {/* {info?.basicInfo?.address} */}
             </div>
 
-            <div className="flex mt-5">
+            {/* <div className="flex mt-5">
               <p className="uppercase font-semibold text-2xl">
                 branches
               </p>
               <hr className="w-56 ml-3 mt-6" />
-            </div>
-            {info && info.branches?.map((values, index)=>{
+            </div> */}
+            {/* {info && info.branches?.map((values, index)=>{
               return  <div key={index} className="flex items-center mt-3 gap-5">
               <img src="/assets/images/contactlocation.png" alt="" />
               <p className="font-AVENIR">{values.address}</p>
             </div>
-            })}
+            })} */}
           
           </div>
 

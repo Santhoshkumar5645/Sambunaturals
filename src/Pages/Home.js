@@ -20,25 +20,27 @@ const Home = () => {
   const [ourProductsData, setOurProductsData] = useState();
 
   const { loading, makeRequest } = useFetchData();
-  let timeoutId;
+  // let timeoutId;
   useEffect(() => {
     ScrolltoTop();
-    const accessToken = LocalStorageService.getItem('accessToken')
-    if(accessToken){
-        ourProducts()
-    }
-    else{
-      timeoutId = setTimeout( ourProducts, 3000); // Fetch data after 2 seconds
+    // const accessToken = LocalStorageService.getItem('accessToken')
+    ourProducts()
+    // if(accessToken){
+       
+    // }
+    // else{
+    //   timeoutId = setTimeout( ourProducts, 3000); // Fetch data after 2 seconds
 
-      return () => {
-        clearTimeout(timeoutId); // Clear the timeout when the component is unmounted
-      };
-    }
+    //   return () => {
+    //     clearTimeout(timeoutId); // Clear the timeout when the component is unmounted
+    //   };
+    // }
    
   }, []);
 
   const ourProducts = async () => {
     const Response = await makeRequest("/common/our-products", "get", {});
+    console.log(Response, 'ourProducts')
     if (Response.status) {
       setOurProductsData(Response.data);
     }
@@ -63,7 +65,7 @@ const Home = () => {
         <HomeOurProducts firstThreeData={firstThreeData} />
         {/* <Subscription /> */}
         {/* <Partners /> */}
-        <SwiperProduct data={ourProductsData && ourProductsData} />
+        {/* <SwiperProduct data={ourProductsData && ourProductsData} /> */}
 
         <HomeWhyKeeraikadai />
 

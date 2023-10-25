@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useScroll } from "react-spring";
 import useFetchData from "../../CustomHooks/useFetchData";
 import { LocalStorageService } from "../../Services/LocalStorageService";
+import { Loader } from "../../Utility";
 
 const bannerData = [
   {
@@ -41,16 +42,17 @@ const Banner = () => {
   let timeoutId;
 
   useEffect(() => {
-    const accessToken = LocalStorageService.getItem("accessToken");
-    if (accessToken) {
-      homeBanner();
-    } else {
-      timeoutId = setTimeout(homeBanner, 3000); // Fetch data after 2 seconds
+    homeBanner();
+    // const accessToken = LocalStorageService.getItem("accessToken");
+    // if (accessToken) {
+      
+    // } else {
+    //   timeoutId = setTimeout(homeBanner, 3000); // Fetch data after 2 seconds
 
-      return () => {
-        clearTimeout(timeoutId); // Clear the timeout when the component is unmounted
-      };
-    }
+    //   return () => {
+    //     clearTimeout(timeoutId); // Clear the timeout when the component is unmounted
+    //   };
+    // }
   }, []);
 
   const homeBanner = async () => {
@@ -62,6 +64,8 @@ const Banner = () => {
 
   return (
     <>
+    {
+      loading ? <Loader /> :
       <div className="max-md:h-full">
         <Slider ref={slider} {...settings}>
           {homeBannerData &&
@@ -95,6 +99,8 @@ const Banner = () => {
           </>
         )}
       </div>
+    }
+      
     </>
   );
 };

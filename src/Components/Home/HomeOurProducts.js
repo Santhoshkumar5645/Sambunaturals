@@ -29,7 +29,7 @@ const HomeOurProducts = (props) => {
           </div>
         </div>
 
-        <div className="flex  items-center max-md:gap-3 font-AVENIR max-md:px-4  md:justify-evenly">
+        <div className="flex  items-center max-md:gap-3 font-AVENIR max-md:px-4 md:pt-10 md:justify-evenly">
           {
             props.firstThreeData?.map((values, index) => {
               return  <OurProducts key={index} {...values} />;
