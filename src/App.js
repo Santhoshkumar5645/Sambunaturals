@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home";
 import About from './Pages/About';
 import Shop from './Pages/Shop';
-import Nutraceuticals from './Pages/Nutraceuticals';
 import Media from './Pages/Media';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
@@ -167,19 +166,12 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/productdetail' element={<ProductDetail />} />
-
-          {/* <Route path='/nutraceuticals' element={<Nutraceuticals />} /> */}
-          {/* <Route path='/media' element={<Media />} /> */}
           <Route path='/contact' element={<Contact />} />
           {/* <Route path='/investor' element={<Investor />} /> */}
-
           <Route path='/profile' element={<Profile />} />
-
           <Route path='/privacypolicy' element={<PrivatePolicy />} />
           <Route path='/shippingpolicy' element={<ShippingPolicy />} />
           {/* <Route path='/refundpolicy' element={<RefundPolicy />} /> */}
-          {/* <Route path='/whatwedo' element={<WhatWeDo />} /> */}
-          {/* <Route path='/myaccount' element={<MyAccount />} /> */}
           <Route path='/cart' element={<Cart />} />
           <Route path='/terms' element={<Terms />} />
 
